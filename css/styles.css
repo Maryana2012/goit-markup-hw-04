@@ -34,7 +34,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
     margin: 0;}
 img{
     display: block;}    
@@ -80,8 +81,8 @@ img{
     gap: 50px;}
 .nav-link {
     display: block;
-    padding-top: 24px;
-    padding-bottom: 25px;}
+    padding-top: 32px;
+    padding-bottom: 32px;}
 .nav-site .link {
     display: block;
     font-weight: 500;
@@ -369,7 +370,7 @@ img{
 
 /* ------------------------footer soc icons-------------------- */
 .footer-soc-container {
-    padding-left: 70px;}
+    margin-left: 70px;}
 .footer-soc-title {
     display: block;
     margin-bottom: 20px;
@@ -405,10 +406,11 @@ img{
     align-items: baseline;}
 
 /*------------------------- styles for portfolio------------------- */
-
+.section_poftfolio {
+padding-top: 94px;}
 .header-portfolio {
     border-bottom: 1px solid #ECECEC;
-    margin-bottom: 94px;}
+    }
 .button-filter {
     border-radius: 4px;
     border: none;
@@ -451,8 +453,7 @@ img{
 .list-img {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    margin-bottom: 20px;}
+    gap: 30px;}
 .text-img {
     padding-top: 20px;
     padding-bottom: 20px;
